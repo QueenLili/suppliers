@@ -26,7 +26,7 @@ export function Homepage() {
     <div className="flex min-h-screen flex-col bg-background">
       <header className="sticky top-0 z-10 border-b bg-background px-4 py-3 shadow-sm sm:px-6 md:px-8">
         <div className="container mx-auto flex items-center justify-between">
-          <Link href="#" className="text-xl font-bold" prefetch={false}>
+          <Link href="/" className="text-xl font-bold" prefetch={false}>
             <MountainIcon className="h-6 w-6 mr-2" />
             Tanzania-China Trade
           </Link>
@@ -34,7 +34,7 @@ export function Homepage() {
             <Link href="#" className="text-sm font-medium hover:underline underline-offset-4" prefetch={false}>
               Home
             </Link>
-            <Link href="#" className="text-sm font-medium hover:underline underline-offset-4" prefetch={false}>
+            <Link href="/about" className="text-sm font-medium hover:underline underline-offset-4" prefetch={false}>
               About
             </Link>
             <Link href="#" className="text-sm font-medium hover:underline underline-offset-4" prefetch={false}>
