@@ -240,7 +240,7 @@ export function Homepage() {
   )
 }
 
-function BadgeCheckIcon(props) {
+function BadgeCheckIcon(props: React.ComponentProps<"svg">) {
   return (
     <svg
       {...props}
@@ -261,7 +261,7 @@ function BadgeCheckIcon(props) {
 }
 
 
-function FacebookIcon(props) {
+function FacebookIcon(props: React.ComponentProps<"svg">) {
   return (
     <svg
       {...props}
@@ -281,7 +281,7 @@ function FacebookIcon(props) {
 }
 
 
-function InstagramIcon(props) {
+function InstagramIcon(props: React.ComponentProps<"svg">) {
   return (
     <svg
       {...props}
@@ -303,7 +303,7 @@ function InstagramIcon(props) {
 }
 
 
-function LinkedinIcon(props) {
+function LinkedinIcon(props: React.ComponentProps<"svg">) {
   return (
     <svg
       {...props}
@@ -325,7 +325,7 @@ function LinkedinIcon(props) {
 }
 
 
-function LockIcon(props) {
+function LockIcon(props: React.ComponentProps<"svg">) {
   return (
     <svg
       {...props}
@@ -346,7 +346,7 @@ function LockIcon(props) {
 }
 
 
-function MountainIcon(props) {
+function MountainIcon(props: React.ComponentProps<"svg">) {
   return (
     <svg
       {...props}
@@ -366,7 +366,7 @@ function MountainIcon(props) {
 }
 
 
-function PackageIcon(props) {
+function PackageIcon(props: React.ComponentProps<"svg">) {
   return (
     <svg
       {...props}
@@ -389,7 +389,7 @@ function PackageIcon(props) {
 }
 
 
-function TwitterIcon(props) {
+function TwitterIcon(props: React.ComponentProps<"svg">) {
   return (
     <svg
       {...props}
